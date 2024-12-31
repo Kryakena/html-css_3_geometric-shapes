@@ -1,7 +1,10 @@
-# Геометрические фигуры
+# 🍕 Геометрические фигуры 🍕
 
 Источник: видео "Геометрические фигуры на HTML и CSS // Треугольник стрелка круг трапеция и другие" 
 https://vk.com/im/convo/19460369?entrypoint=list_all&z=video-125918837_456239144%2Fcb0fe0d085da504841
+
+![2024-12-31_19-44-25](https://github.com/user-attachments/assets/42e2cf8d-c9ea-454f-b8a3-d2b793127aff)
+
 
 1. создаем создаем файлы index.html, style.css (в папке css) в папке проекта.
 
@@ -267,6 +270,9 @@ html,body{
 </html>
 ```
 
+![2024-12-31_19-43-40](https://github.com/user-attachments/assets/e5638d3a-fb27-4def-89cf-52c924a8eb6d)
+
+
 2. в файле style.css 
 
 ```css
@@ -362,3 +368,7 @@ html,body{
    border-right: 30px solid transparent;
 }
 ```
+
+![2024-12-31_19-43-09](https://github.com/user-attachments/assets/40d27ab5-952a-4e7a-bd94-90f1c1249175)
+![2024-12-31_19-43-20](https://github.com/user-attachments/assets/407fba09-0913-4f38-b50b-099a44073cf5)
+
