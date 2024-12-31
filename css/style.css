@@ -1,0 +1,91 @@
+/* Обнуление */
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* Стили для демонстрации */
+html,body{
+    height: 100%;
+}
+.wrapper{
+
+}
+.block{
+    padding: 50px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.block_item{
+    margin: 0 0 30px 0;
+}
+
+/* Основные стили */
+
+.square{ /* Квадрат */
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+.square:hover{
+    background-color: red;
+}
+
+.rectangle{ /* Прямоугольник */
+    width: 300px;
+    height: 150px;
+    background-color: green;
+}
+.circle{ /* Круг - квадрат с закругленными краями */
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+}
+.oval{ /* Овал - прямоугольник с закругленными краями */
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+}
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* transparent - прозрачный цвет */
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* transparent - прозрачный цвет */
+    border-right: 50px solid transparent;
+    border-top: 100px solid green;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent; /* transparent - прозрачный цвет */
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid green;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent; /* transparent - прозрачный цвет */
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid green;
+}
+.parallelogram{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    transform: skew(15deg);
+}
+.trapezoid{
+    width: 200px;
+    border-bottom: 100px solid green;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
